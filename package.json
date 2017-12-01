@@ -10,6 +10,7 @@
   "author": "Jay Jackson",
   "license": "MIT",
   "dependencies": {
+    "@material/layout-grid": "^0.24.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.0",
