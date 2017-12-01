@@ -10,12 +10,12 @@ module.exports = {
     'webpack-dev-server/client?http://localhost:8080',
     'webpack/hot/only-dev-server',
     DEV + "/index.jsx",
-    DEV + "/site.scss"
+    DEV + "/main.scss"
   ],
   devtool: "inline-source-maps",
   output: {
     path: DIST,
-    filename: "iceandfire.js",
+    filename: "bundle.js",
     publicPath: '/'
   },
   module: {
