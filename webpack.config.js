@@ -1,7 +1,7 @@
 var webpack = require("webpack");
 var path = require("path");
 
-var DEV = path.resolve(__dirname, "dev");
+var DEV = path.resolve(__dirname, "src");
 var DIST = path.resolve(__dirname, "dist");
  
 module.exports = {
@@ -22,7 +22,7 @@ module.exports = {
     loaders: [
       {
         test: /\.js[x]?$/,
-        include: path.join(__dirname, 'dev'),
+        include: path.join(__dirname, 'src'),
         loaders: "babel-loader"
       },
       {
